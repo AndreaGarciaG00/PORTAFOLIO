@@ -1,0 +1,31 @@
+.floating-btn {
+  position: fixed;
+  bottom: var(--space-xl);
+  right: var(--space-xl);
+  z-index: 999;
+}
+
+.floating-btn__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-full);
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+  transition: background var(--transition-base);
+}
+
+.floating-btn:hover .floating-btn__trigger {
+  background: var(--color-accent-hover);
+}
+
+@media (max-width: 480px) {
+  .floating-btn {
+    bottom: var(--space-md);
+    right: var(--space-md);
+  }
+}

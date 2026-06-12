@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Andrea Galindo — Ingeniera Full Stack y Desarrolladora Multiplataforma. Desarrollo web, móvil, IoT y soluciones cloud en Durango, México.">
+  <meta name="author" content="Andrea Galindo">
+  <title>Andrea Galindo | Ingeniera Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components/navbar.css">
+  <link rel="stylesheet" href="css/components/hero.css">
+  <link rel="stylesheet" href="css/components/about.css">
+  <link rel="stylesheet" href="css/components/services.css">
+  <link rel="stylesheet" href="css/components/skills.css">
+  <link rel="stylesheet" href="css/components/vnnox.css">
+  <link rel="stylesheet" href="css/components/projects.css">
+  <link rel="stylesheet" href="css/components/education.css">
+  <link rel="stylesheet" href="css/components/contact.css">
+  <link rel="stylesheet" href="css/components/floating-btn.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <nav class="navbar__container container">
+      <a href="#inicio" class="navbar__logo">
+        Andrea <span>Galindo</span>
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="#inicio" class="navbar__link">Inicio</a></li>
+        <li><a href="#sobre-mi" class="navbar__link">Sobre mí</a></li>
+        <li><a href="#servicios" class="navbar__link">Servicios</a></li>
+        <li><a href="#proyectos" class="navbar__link">Proyectos</a></li>
+        <li><a href="mailto:andreagarciagalindo20@gmail.com" class="navbar__link navbar__link--cta">Contrátame</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Andrea Galindo</h1>
+          <p class="hero__role">Ingeniera en Desarrollo de Software</p>
+          <div class="hero__actions">
+            <a href="mailto:andreagarciagalindo20@gmail.com" class="btn btn--primary">Contrátame</a>
+            <a href="#proyectos" class="btn btn--outline">Ver proyectos</a>
+          </div>
+          <div class="hero__contact-line">
+            <span class="hero__contact-item">
+              <a href="mailto:andreagarciagalindo20@gmail.com">andreagarciagalindo20@gmail.com</a>
+            </span>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img
+            src="assets/img/andrea-profile.png"
+            alt="Andrea Galindo — Ingeniera en Desarrollo de Software"
+            class="hero__photo"
+            width="340"
+            height="425"
+            loading="eager"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE MÍ ========== -->
+    <section class="about section" id="sobre-mi">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Sobre mí</span>
+          <h2 class="section__title">Perfil profesional</h2>
+        </div>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Ingeniera en Desarrollo de Software y Técnica Superior Universitaria en Tecnologías de la Información (Desarrollo Multiplataforma).
+            </p>
+            <p>
+              Especialista en crear soluciones full-stack, gestión de bases de datos y despliegue, con un enfoque de negocio orientado a resultados, adaptabilidad y resolución de problemas complejos.
+            </p>
+          </div>
+          <div class="about__highlights">
+            <div class="about__highlight">
+              <span class="about__highlight-value">2+</span>
+              <span class="about__highlight-label">Proyectos en producción</span>
+            </div>
+            <div class="about__highlight">
+              <span class="about__highlight-value">Full Stack</span>
+              <span class="about__highlight-label">Web y multiplataforma</span>
+            </div>
+            <div class="about__highlight">
+              <span class="about__highlight-value">Cloud</span>
+              <span class="about__highlight-label">AWS · GCP · Supabase</span>
+            </div>
+            <div class="about__highlight">
+              <span class="about__highlight-value">B1</span>
+              <span class="about__highlight-label">Inglés</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICIOS ========== -->
+    <section class="services section section--alt" id="servicios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Servicios</span>
+          <h2 class="section__title">Soluciones que ofrezco</h2>
+          <p class="section__subtitle">Desde la idea hasta el despliegue en producción, con soluciones a medida para tu negocio.</p>
+        </div>
+        <div class="services__grid">
+
+          <article class="service-card">
+            <span class="service-card__number">01</span>
+            <h3 class="service-card__title">Desarrollo Web Full Stack</h3>
+            <p class="service-card__desc">Aplicaciones web escalables y de alto rendimiento con arquitecturas modernas.</p>
+            <ul class="service-card__tags">
+              <li>React</li><li>Node.js</li><li>Spring Boot</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">02</span>
+            <h3 class="service-card__title">Desarrollo Móvil y Wearables</h3>
+            <p class="service-card__desc">Apps nativas e híbridas para iOS, Android y dispositivos WearOS.</p>
+            <ul class="service-card__tags">
+              <li>React Native</li><li>Flutter</li><li>WearOS</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">03</span>
+            <h3 class="service-card__title">Arquitectura Cloud y Backend</h3>
+            <p class="service-card__desc">APIs robustas, bases de datos y despliegue continuo en la nube.</p>
+            <ul class="service-card__tags">
+              <li>Render</li><li>Railway</li><li>AWS</li><li>Supabase</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">04</span>
+            <h3 class="service-card__title">Soluciones IoT y Hardware Inteligente</h3>
+            <p class="service-card__desc">Integración de hardware con software para sistemas inteligentes conectados.</p>
+            <ul class="service-card__tags">
+              <li>Raspberry Pi</li><li>IoT</li><li>Sensores</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="skills section section--alt" id="habilidades">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Stack Tecnológico</span>
+          <h2 class="section__title">Tecnologías y Herramientas</h2>
+        </div>
+        <div class="skills__grid" id="skillsGrid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== VNNOX SPECIAL ========== -->
+    <section class="vnnox section" id="vnnox">
+      <div class="container">
+        <div class="vnnox__card">
+          <span class="vnnox__label">Experiencia especializada</span>
+          <h3 class="vnnox__title">VNNOX & VNNOX Care</h3>
+          <p class="vnnox__desc">
+            Configuración, administración y mantenimiento de sistemas de cartelería digital y señalización. Experiencia en VNNOX y VNNOX Care para entornos retail, corporativos y publicitarios.
+          </p>
+          <div class="vnnox__tags">
+            <span class="vnnox__tag">Señalización digital</span>
+            <span class="vnnox__tag">Gestión de pantallas</span>
+            <span class="vnnox__tag">VNNOX Care</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROYECTOS ========== -->
+    <section class="projects section section--alt" id="proyectos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Portafolio</span>
+          <h2 class="section__title">Proyectos destacados</h2>
+          <p class="section__subtitle">Aplicaciones en producción con backends desplegados en Render y Railway.</p>
+        </div>
+        <div class="projects__grid" id="projectsGrid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCACIÓN ========== -->
+    <section class="education section" id="educacion">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Formación</span>
+          <h2 class="section__title">Educación y Certificaciones</h2>
+        </div>
+        <div class="education__list">
+
+          <article class="edu-card">
+            <span class="edu-card__period">2024 — 2026</span>
+            <h3 class="edu-card__title">Ingeniería en Desarrollo de Software</h3>
+            <p class="edu-card__institution">Universidad Tecnológica de Durango</p>
+            <span class="edu-card__badge edu-card__badge--pending">En curso · Cédula y título</span>
+          </article>
+
+          <article class="edu-card">
+            <span class="edu-card__period">2022 — 2024</span>
+            <h3 class="edu-card__title">Técnico Superior Universitario en Desarrollo Software Multiplataforma</h3>
+            <p class="edu-card__institution">Universidad Tecnológica de Durango</p>
+            <a href="https://drive.google.com/drive/folders/1NkfThDfNxBFYjoiLxAecg1ib7N6P39eb?usp=sharing" target="_blank" rel="noopener noreferrer" class="edu-card__link">
+              Ver cédula y título →
+            </a>
+          </article>
+
+          <article class="edu-card">
+            <span class="edu-card__period">Idiomas</span>
+            <h3 class="edu-card__title">Inglés — Nivel B1</h3>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="contact section section--alt" id="contacto">
+      <div class="container contact__simple">
+        <div class="section__header section__header--center">
+          <span class="section__label">Contacto</span>
+          <h2 class="section__title">Hablemos de tu proyecto</h2>
+        </div>
+        <a href="mailto:andreagarciagalindo20@gmail.com" class="btn btn--primary btn--contact">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Contrátame
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <p class="footer__copy">&copy; 2026 Andrea Galindo. Todos los derechos reservados.</p>
+      <p class="footer__role">Ingeniera en Desarrollo de Software · Durango, México</p>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING CONTACT BTN ========== -->
+  <a href="mailto:andreagarciagalindo20@gmail.com" class="floating-btn" aria-label="Enviar correo">
+    <span class="floating-btn__trigger">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Correo
+    </span>
+  </a>
+
+  <script src="js/data.js"></script>
+  <script src="js/components/navbar.js"></script>
+  <script src="js/components/render.js"></script>
+  <script src="js/components/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
